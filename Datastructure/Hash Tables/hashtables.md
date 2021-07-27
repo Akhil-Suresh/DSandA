@@ -30,3 +30,5 @@ A hash function is simply a function that generates a fixed length value for eac
 # Cons of Hash Tables.
 
 Though ideally it looks perfect. By understanding this much we will be forced to think that hash tables is ideal for all our needs since it does have all ILDS functions under O(1). But there is a small catch. The problem occurs due to the way the data is stored based on this hash value.
+
+
