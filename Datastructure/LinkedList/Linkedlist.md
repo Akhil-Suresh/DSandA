@@ -29,3 +29,15 @@ BigO Notation
 - Not Cache friendly.
     - Caching system which is more efficient in reading continuous memory items than from scattered memory location.
 - In an array elemets are indexed. In linked list you start at head, traverse till you find the index.
+
+## Singly Linked List
+
+The implementation of singly linked list is very simple. It will have
+
+Node    ->   Atomic block of linked list. This will store data and pointer to next Node.
+
+Linked List  -> This will be stating point of linked list. It will have a Head and a Tail to begin with.. Also it stores the length of the linked list.
+
+## Doubly Linked List
+
+The implementation of doubly linked list is similar to singly linked list with the difference being the Node element will have pointer in both direction

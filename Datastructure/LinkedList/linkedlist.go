@@ -113,14 +113,27 @@ func(l *LinkedList) print() string {
 }
 
 func main() {
-	ll := NewLinkedList(10, 20)
+	ll := NewDLinkedList(10, 20)
+	fmt.Println("New Linked List")
+	fmt.Println(ll.print())	
+	
+	fmt.Println("After append")
 	ll.append(30)
-	ll.prepend(5)
-	ll.insert(2, 15)
-
 	fmt.Println(ll.print())
+	
+	fmt.Println("After Prepend")
+	ll.prepend(5)
+	fmt.Println(ll.print())
+	
+	fmt.Println("After insert")
+	ll.insert(2, 15)
+	fmt.Println(ll.print())
+	
 	fmt.Println("Linked List Length: ", ll.Length)
+	
+	fmt.Println("After Delete")
 	ll.delete(2)
 	fmt.Println(ll.print())
-	fmt.Println(ll.search(10))
+	
+	fmt.Println("search result : ", ll.search(10))
 }
