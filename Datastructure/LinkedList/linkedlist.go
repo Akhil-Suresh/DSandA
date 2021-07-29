@@ -113,7 +113,7 @@ func(l *LinkedList) print() string {
 }
 
 func main() {
-	ll := NewDLinkedList(10, 20)
+	ll := NewLinkedList(10, 20)
 	fmt.Println("New Linked List")
 	fmt.Println(ll.print())	
 	
